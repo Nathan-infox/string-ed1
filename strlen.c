@@ -4,10 +4,10 @@
 #include <time.h>
 
 int main(){
-	char texto[] = "Olá, mundo!";
-	int tamanho;
-	
-    size_t tamanho = strlen(texto);
+    char texto[] = "Olá, mundo!";
+    int tamanho;
+
+    tamanho = strlen(texto);
 
     printf("O tamanho da string é: %zu\n", tamanho);
 }
